@@ -14,8 +14,6 @@
 
    代码举例如下：
 
-[![复制代码](https://common.cnblogs.com/images/copycode.gif)](javascript:void(0);)
-
 ```java
  public boolean isValidBST(TreeNode root) {
         return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
@@ -32,15 +30,12 @@
     }
 ```
 
-[![复制代码](https://common.cnblogs.com/images/copycode.gif)](javascript:void(0);)
-
 #### 4）对关于树的几个经典问题总结
 
 **（1）树的先、中遍历** **迭代实现与递归实现的比对**
 
 ​     **迭代实现：**
-
-​     **<img src="https://img2020.cnblogs.com/blog/1919232/202011/1919232-20201121172832886-1636513924.png" alt="img" style="zoom: 50%;" /> <img src="https://img2020.cnblogs.com/blog/1919232/202011/1919232-20201121173407717-368972409.png" alt="img" style="zoom:50%;" />**
+    
 
 ​    迭代这里是深度遍历，**栈实现的。（Deque可实现，单头进、出）**
 
