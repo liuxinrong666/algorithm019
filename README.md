@@ -36,7 +36,7 @@
 
 ​     **迭代实现：**
 
-​     **<img src="https://img2020.cnblogs.com/blog/1919232/202011/1919232-20201121172832886-1636513924.png" alt="img" style="zoom: 50%;" /> <img src="https://img2020.cnblogs.com/blog/1919232/202011/1919232-20201121173407717-368972409.png" alt="img" style="zoom:50%;" />**
+​     **<img src="https://img2020.cnblogs.com/blog/1919232/202011/1919232-20201121172832886-1636513924.png" alt="img" style="zoom: 33%;" /> <img src="https://img2020.cnblogs.com/blog/1919232/202011/1919232-20201121173407717-368972409.png" alt="img" style="zoom: 33%;" />**
 
 ​    迭代这里是深度遍历，**栈实现的。（Deque可实现，单头进、出）**
 
@@ -46,7 +46,7 @@
 
 ​     **递归实现：**
 
-​     **<img src="https://img2020.cnblogs.com/blog/1919232/202011/1919232-20201121173658303-1796116748.png" alt="img" style="zoom: 50%;" /> <img src="https://img2020.cnblogs.com/blog/1919232/202011/1919232-20201121174115777-1488430412.png" alt="img" style="zoom: 50%;" />**
+​     **<img src="https://img2020.cnblogs.com/blog/1919232/202011/1919232-20201121173658303-1796116748.png" alt="img" style="zoom: 33%;" /> <img src="https://img2020.cnblogs.com/blog/1919232/202011/1919232-20201121174115777-1488430412.png" alt="img" style="zoom: 33%;" />**
 
 ​    **用递归解决二叉树的遍历相关问题的话，一般都会在递归函数前面创建一个集合，用来存储将最后的返回结果。这个集合会作为参数带到递归函数中。**
 
@@ -54,7 +54,7 @@
 
 ​     N叉树的层序遍历是要实现按照层来存储节点的，借助的是**队列（Deque可实现，一头进，另一头出）**。
 
-​     <img src="https://img2020.cnblogs.com/blog/1919232/202011/1919232-20201121180331844-965660324.png" alt="img" style="zoom:50%;" />
+​     <img src="https://img2020.cnblogs.com/blog/1919232/202011/1919232-20201121180331844-965660324.png" alt="img" style="zoom: 33%;" />
 
 ​     队列实现BFS广度优先搜索，遵循**先进先出**的原则。
 
@@ -68,7 +68,7 @@
 
 **（3）二叉树的反序列化**
 
-​     <img src="https://img2020.cnblogs.com/blog/1919232/202011/1919232-20201121181711680-1882388649.png" alt="img" style="zoom:50%;" />
+​     <img src="https://img2020.cnblogs.com/blog/1919232/202011/1919232-20201121181711680-1882388649.png" alt="img" style="zoom: 33%;" />
 
 ​     对于实现二叉树的反序列化问题，如果采用递归的方式实现的话，递归函数应是返回TreeNode类型数据的，
 
